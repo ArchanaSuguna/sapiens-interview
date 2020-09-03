@@ -1,0 +1,18 @@
+.main-container{
+  display: grid;
+  grid-template-columns:200px auto;
+  grid-template-rows: repeat(auto);
+  grid-column-gap: 10px;
+}
+
+.side-bar{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 520px) {
+  .main-container{
+    grid-template-columns: 100%;
+  }
+}

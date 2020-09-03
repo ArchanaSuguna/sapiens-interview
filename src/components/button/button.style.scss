@@ -1,0 +1,16 @@
+button{
+  background:#c4e09a;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  min-width: 70px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &.selected, &:hover, &:focus, &:active{
+    background: #7eb705;
+    transition: all 0.3s;
+  }
+}
